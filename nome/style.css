@@ -1,0 +1,24 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+body{
+  background-color: #000000;
+}
+
+span{
+  display: inline-block;
+}
+
+span:first-letter{
+  text-transform: uppercase;
+}
+
+#risultato:not(first-letter){
+  text-transform: lowercase;
+}
